@@ -37,6 +37,8 @@ p {
 }
 
 a {
+	font-size: 30px;
+	color: rgb(225, 225, 0);
 	text-decoration: none;
 }
 
