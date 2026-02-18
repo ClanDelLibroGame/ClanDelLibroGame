@@ -23,8 +23,7 @@ body {
 /* Testi */
 h1 {
 	margin: 0;
-	margin-right: 10vh;
-	font-size: 40px;
+	font-size: 30px;
 	color: rgb(255, 255, 0);
 }
 
@@ -68,21 +67,27 @@ a {
 	display: flex;
 }
 
+	.header>a {
+		font-size: 30px;
+		color: rgb(255, 255, 0);
+		margin-right: 15vh;
+	}
+
 
 /* Responsive versione mobile */
 @media only screen and (max-width: 800px) {
 	h1 {
 		font-size: 20px;
-		margin-right: 20vh;
+	}
+
+	.header>a {
+		font-size: 20px;
+		margin-right: 5vh;
 	}
 
 	.banner {
 		height: 350px;
 	}
-
-	/* .banner>img {
-		display: none;
-	} */
 
 	.title {
 		font-size: 40px;
