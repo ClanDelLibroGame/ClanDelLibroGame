@@ -32,11 +32,14 @@ div {
     flex-wrap: wrap;
 }
 
+row {
+	padding: 20px;
+	margin: 0 20px 20px 0;
+}
+
 .cornice {
 	background-color: rgb(10, 10, 10);
 	border: 1px solid rgb(120, 120, 120);
-	padding: 20px;
-	margin: 0 20px 20px 0;
 }
 
 
