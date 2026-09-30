@@ -146,4 +146,8 @@ footer {
 	.banner {
 		height: 250px;
 	}
+
+	div > row > img {
+		max-width: 100%;
+	}
 }
