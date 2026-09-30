@@ -33,11 +33,12 @@ div {
 }
 
 row {
-	padding: 20px;
+	/* padding: 20px; */
 	margin: 0 20px 20px 0;
 }
 
 .cornice {
+	padding: 0 20px 0 20px;
 	background-color: rgb(10, 10, 10);
 	border: 1px solid rgb(120, 120, 120);
 }
@@ -133,6 +134,18 @@ footer {
 
 	h2 {
 		font-size: 40px;
+	}
+
+	h3 {
+		font-size: 30px;
+	}
+
+	.evidenziatore {
+		font-size: 20px;
+	}
+
+	p {
+		font-size: 20px;
 	}
 
 	a {
